@@ -1,4 +1,3 @@
-%%writefile app.py
 import streamlit as st
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
@@ -124,3 +123,4 @@ if uploaded_file:
 
         st.markdown("### Answer")
         st.write(answer)
+
